@@ -1,0 +1,25 @@
+.articulo {
+  display: flex;
+  justify-content: center;
+  width: 40rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.articulo-texto {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.articulo-texto h4 {
+  font-size: 1.5rem;
+}
+
+.articulo-texto p {
+  font-size: 1.2rem;
+}
+
+.articulo img {
+  width: 10rem;
+}

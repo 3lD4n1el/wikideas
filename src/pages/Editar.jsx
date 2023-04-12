@@ -1,11 +1,14 @@
 import React from 'react'
 import Nav from '../navbar/Nav'
+import './styles/AdicionarEditar.css'
 
 const Editar = () => {
   return (
     <>
     <Nav/>
-    <div>Editar</div>
+    <section className="editar">
+      Editar
+    </section>
     </>
   )
 }

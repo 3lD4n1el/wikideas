@@ -1,0 +1,66 @@
+.inicio {
+  min-height: 90vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
+    url(/public/img/biblioteca-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.inicio h1 {
+  font-size: var(--title1);
+  background: var(--background-color-2);
+  padding: 2rem 5rem;
+}
+
+.inicio-texto {
+  margin: 4rem;
+}
+
+.inicio-texto p {
+  margin-top: 5rem;
+  font-size: 2rem;
+  width: 80%;
+}
+
+.inicio h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  background: var(--background-color-2);
+  width: 30rem;
+  text-align: right;
+}
+
+.inicio-texto {
+  flex: 1 1 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.inicio-right {
+  flex: 2 1 70rem;
+}
+
+.inicio-videos {
+  display: flex;
+  margin: 3rem;
+}
+
+.video {
+  margin: 0 3rem;
+}
+
+.video h3 {
+  margin: 2rem 0;
+}
+
+.inicio-videos img {
+  width: 30rem;
+}
+
+.inicio-articulos {
+  display: flex;
+  flex-direction: row;
+}

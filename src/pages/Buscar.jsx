@@ -1,11 +1,14 @@
 import React from 'react'
 import Nav from '../navbar/Nav'
+import './styles/Buscar.css'
 
 const Buscar = () => {
   return (
     <>
     <Nav/>
-    <div>Buscar</div>
+    <section className="buscar">
+      Buscar
+    </section>
     </>
   )
 }

@@ -12,6 +12,9 @@ nav h1 {
 
 nav li {
   list-style: none;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 2rem;
 }
 
 nav a {
@@ -28,4 +31,11 @@ nav a {
 .active {
   border-radius: 2rem;
   background: var(--background-color-2);
+}
+
+.lupa {
+  position: absolute;
+  top: 1.6rem;
+  right: 5rem;
+  width: 3rem;
 }
