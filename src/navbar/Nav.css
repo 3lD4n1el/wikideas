@@ -1,0 +1,31 @@
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background-color);
+}
+
+nav h1 {
+  margin-left: 2rem;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.active {
+  border-radius: 2rem;
+  background: var(--background-color-2);
+}

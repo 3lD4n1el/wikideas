@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  --background-color: #373a4f;
+  --background-color-2: rgba(32, 32, 32, 0.8);
+  --text-color: #f2e7dd;
+
+  --title1: 4rem;
+  --title2: 3rem;
+  --title3: 2rem;
+  --text: 1.5rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: var(--text);
+}
