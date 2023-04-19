@@ -1,0 +1,18 @@
+.resultado {
+  margin: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.resultado-texto {
+  margin: 0 2rem;
+}
+.resultado-texto h3 {
+  font-size: var(--title4);
+}
+.resultado-texto p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.resultado img {
+  width: 15rem;
+}

@@ -64,3 +64,8 @@ a {
   background: var(--background-color);
   cursor: pointer;
 }
+
+.btn:hover {
+  transform: scale(1.05) translateY(-0.2rem);
+  transition: all 0.2s ease;
+}

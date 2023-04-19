@@ -1,6 +1,6 @@
 import React from 'react'
-import Nav from '../navbar/Nav'
-import './styles/Buscar.css'
+import Nav from '../../navbar/Nav'
+import '../styles/Buscar.css'
 
 const Buscar = () => {
   return (

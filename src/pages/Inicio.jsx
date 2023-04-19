@@ -2,6 +2,7 @@ import React from 'react'
 import './styles/Inicio.css'
 import Nav from '../navbar/Nav'
 import Articulo from '../components/Articulo'
+import { NavLink } from 'react-router-dom'
 
 const Inicio = () => {
   return (
@@ -12,6 +13,11 @@ const Inicio = () => {
       <h1>Wikideas</h1>
       <p>Formamos una enciclopedia colaborativa y universal,  abierta a todos los que deseen aportar sus conocimientos. Nuestro objetivos es ofrecer contenido libre, gratuito y confiable a través de la internet.
 ¡Sumate a participar de esta gran comunidad!</p>
+      <div className="btns-inicio">
+        <h4>Comienza ahora!</h4>
+        <NavLink to='/adicionar' className='btn'>Adiciona un contenido</NavLink>
+        <NavLink to='/buscar' className='btn'>Comienza a explorar</NavLink>
+      </div>
       </div>
       <div className='incio-right'>
       <div className="inicio-videos">
