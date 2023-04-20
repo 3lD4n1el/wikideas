@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './styles/Articulo.css'
+import Context from '../context/Context'
 
-const Articulo = () => {
+const Articulo = (props) => {
+  const {datos}=useContext(Context)
   return (
     <div className="articulo">
-        <img src='public\img\sauropodo.PNG' alt="sauropodo" />
+      <div className="img">
+        <img src={datos[props.valor].imagen} alt={datos[props.valor].nombre} />
+        </div>
         <div className="articulo-texto">
-        <h4>Title</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos ipsam, omnis alias possimus natus aliquam eos. Doloremque, quae quos!</p>
+        <h4>{datos[props.valor].nombre}</h4>
+        <p>{datos[props.valor].contenido}</p>
         </div>
     </div>
   )

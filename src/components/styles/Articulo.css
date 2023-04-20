@@ -18,8 +18,21 @@
 
 .articulo-texto p {
   font-size: 1.2rem;
+  /* funcionalidad de los ...*/
+  display: -webkit-box;
+  max-width: 100%;
+  height: 8rem;
+  line-height: 1.1;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .articulo img {
   width: 10rem;
+}
+.img {
+  display: flex;
+  align-items: center;
 }

@@ -33,8 +33,8 @@ const Inicio = () => {
       <div className="inicio-articulos-box">
         <h3>Artículos destacados:</h3>
         <div className="inicio-articulos">
-        <Articulo/>
-        <Articulo/>
+        <Articulo valor={0}/>
+        <Articulo valor={1}/>
         </div>
       </div>
       </div>
