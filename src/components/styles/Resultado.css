@@ -1,7 +1,9 @@
 .resultado {
-  margin: 5rem;
+  margin: 1rem;
   display: flex;
   justify-content: space-around;
+  cursor: pointer;
+  padding: 2rem;
 }
 .resultado-texto {
   margin: 0 2rem;
@@ -15,4 +17,9 @@
 }
 .resultado img {
   width: 15rem;
+}
+
+.resultado:hover {
+  border: 1px solid gainsboro;
+  border-radius: 1rem;
 }

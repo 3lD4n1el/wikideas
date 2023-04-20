@@ -13,7 +13,7 @@ const Nav = () => {
         <li className='link-buscar'><NavLink to='/buscar'>Buscar
         &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
         </NavLink></li>
-        <img src='public\icons\lupa.png' className='lupa'/>
+        <img src='icons/lupa.png' className='lupa'/>
     </ul>
     </nav>
     </>

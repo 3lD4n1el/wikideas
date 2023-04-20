@@ -13,7 +13,7 @@ const Adicionar = () => {
   const {datos,setDatos}=useContext(Context)
 
   const obtener = (data)=>{
-    setDatos(data)
+    setDatos(currentDatos=>[...currentDatos,data])
     console.log(data)
     navegacion('/adicionar-mensaje')
   }
