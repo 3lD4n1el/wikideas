@@ -1,11 +1,16 @@
 import React, { useContext } from 'react'
 import Context from '../../context/Context'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import Nav from '../../navbar/Nav'
 
 const ResultadoVentana = () => {
   const {datos}=useContext(Context)
   const dato = useParams()
+  const navegacion = useNavigate()
+
+  const back=()=>{
+    navegacion(-1)
+  }
   return (
     <>
     <Nav/>
@@ -13,7 +18,7 @@ const ResultadoVentana = () => {
       <div className="res-container">
         <div className="res-text">
           <div className="res-name">
-            <button><img src="icons/caret.png" alt="caret" /></button>
+            <button className='back' onClick={back}>&larr;</button>
             <h1>{datos[dato.key].nombre}</h1>
             </div>
         <h3 className="categorias">Categorías: <span>{datos[dato.key].categorias}</span></h3>

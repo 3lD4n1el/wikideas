@@ -35,7 +35,7 @@ const Resultados = () => {
                 <Resultado key={i} imagen={dato.imagen} nombre={dato.nombre} contenido={dato.contenido} valor={i}/>
             ))}
         </div>
-        </div>-box
+        </div>
     </div>
     </>
   )
