@@ -14,7 +14,7 @@ const Adicionar = () => {
 
   const obtener = (data)=>{
     setDatos(currentDatos=>[...currentDatos,data])
-    console.log(data)
+    // console.log(data)
     navegacion('/adicionar-mensaje')
   }
 

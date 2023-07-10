@@ -2,7 +2,7 @@
   height: 90vh;
   width: 100%;
   background: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
-    url(/public/img/biblioteca-3.jpg);
+    url(/img/biblioteca-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -17,7 +17,7 @@ const Buscar = () => {
     <input type="text" placeholder='Escribe un tema...' />
     <button><img src="icons/lupa.png" alt="" /></button>
     </div>
-    <button className='btn' onClick={onSearch}>BUSCAR</button>
+    <input type='submit' className='btn' onClick={onSearch} value='BUSCAR'/>
     </section>
     </>
   )

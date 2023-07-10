@@ -5,7 +5,7 @@ const Provider = ({children}) => {
   const datosIniciales=[
     {
       nombre: 'Velociraptor',
-      categorias: 'depredador',
+      categorias: 'depredador, dinosaurio',
       imagen: 'https://upload.wikimedia.org/wikipedia/commons/d/d1/Velociraptor_mongoliensis.jpg',
       contenido: 'Velociraptor (em português, Velociraptor ou Velocirraptor),[1] é um gênero de dinossauros terópodes que viveram aproximadamente a 84 e 85 milhões de anos atrás, durante a última parte do período Cretáceo.[2] Duas espécies são reconhecidas atualmente, embora outras tenham sido atribuídas no passado. A espécie-tipo é V. Mongoliensis; fósseis desta espécie foram descobertos na Mongólia. A segunda espécie, V. Osmolskae, foi nomeada em 2008 a partir do crânio encontrado na Mongólia Interior, China.'
     },

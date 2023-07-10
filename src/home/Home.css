@@ -1,7 +1,7 @@
 .home {
   height: 90vh;
   background: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
-    url(/public/img/biblioteca-1.jpg);
+    url(/img/biblioteca-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

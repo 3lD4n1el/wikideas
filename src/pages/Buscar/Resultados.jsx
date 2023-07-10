@@ -11,6 +11,7 @@ const Resultados = () => {
     const showResultado=()=>{
       navegacion('/')
     }
+
   return (
     <>
     <Nav/>
